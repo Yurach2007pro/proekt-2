@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Описание товара | Dilan</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html" class="logo">Dilan</a>
+        <nav>
+            <ul>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Корзина (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Product Details -->
+    <section id="product-details">
+        <h2>Название товара</h2>
+        <img src="https://via.placeholder.com/300x300" alt="Product Image">
+        <p>Описание товара...</p>
+        <span class="price">₽69 990</span>
+        <button onclick="addToCartFromProductPage()" class="btn btn-outline-dark">В корзину</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <small>© 2025 Dilan. Все права защищены.</small>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
